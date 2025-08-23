@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    background-color: azure;
+}
+
+button {
+    margin: 2rem;
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+}
+
+div {
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
