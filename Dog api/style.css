@@ -1,0 +1,65 @@
+body {
+    margin: 2rem;
+    padding: 0;
+    text-align: center;
+    background-color: #00ceff30;
+    overscroll-behavior: none;
+}
+
+main {   
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #3d558b7a;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.image img {
+    width: 300px;   /* fixed width */
+    height: auto;   /* keep aspect ratio */
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+input[type="search"] {
+  width: 50%;         /* make it wide */
+  height: 2rem;         /* make it tall */
+  font-size: 16px;      /* bigger text inside */
+  padding: 10px 15px;   /* spacing inside */
+  
+  border: 2px solid #000;   /* light gray border */
+  border-radius: 12px;      /* rounded corners */
+  outline: none;            /* remove blue outline */
+  
+  transition: border 0.2s ease; /* smooth effect on focus */
+}
+
+button {
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    font-size: 1rem;
+}
+
+.box {
+    margin-bottom: 1rem;
+}
+
+select {
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

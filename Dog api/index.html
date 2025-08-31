@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
+    <title>Dog api</title>
+    <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1><b>Find Your Favorite Dog Breed!</b></h1>
+        <h3>🐾︎ Search by breed, discover cute dogs, and brighten your day with a random paw-some pic. 🐾︎</h3>
+    </header>
+    
+    <main>
+        <!-- Random Dog Generator -->
+        <section id="random-dog" class="card">
+            <h2>✨ Surprise Me with a Doggo!</h2>
+            <div class="box">
+            <button class="random-btn">Show Random Doggo</button>
+            </div>
+            <div class="random-dog-img image">
+                <img src="assets/card-img1.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- Search box + suggestions -->
+        <section id="search-suggest" class="card">
+            <h2>Find Your Furry Friend 💕</h2>
+            <div class="box">
+            <input type="search" id="breed-input" placeholder="Search..." list="breeds">
+            <datalist id="breeds"></datalist>
+            <button class="breed-search">Search</button>
+            </div>
+            <div class="dog-img image">
+                <img src="assets/card-img2.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- Breed Explorer -->
+        <section id="breed-explorer" class="card">
+            <h2>Explore All <i class="fa fa-paw"></i> Breeds</h2>
+            <h3>Choose a breed from the list</h3>
+            <div class="box">
+            <select name="breed-list" id="breed-list">
+                <option value="">Choose breed...</option>
+            </select>
+            <button id="show-dog">Show Dog</button>
+            </div>
+            <div class="explore-dog-img image">
+                <img src="assets/card-img3.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by Dog CEO API 🐾︎ | © 2025 Shreelaxmi Hegde | Fetching smiles since 2025.</p>
+        <p>Adopt, don’t shop ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
